@@ -1,4 +1,4 @@
-default:
+elasticsearch-2.2:
   build: ./2.2
   command: elasticsearch -Des.cluster.name=local-test-cluster -Des.node.name=master-node
   ports:
