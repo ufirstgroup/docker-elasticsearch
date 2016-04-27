@@ -1,4 +1,4 @@
-FROM elasticsearch:2.2.0
+FROM elasticsearch:2.2
 
 RUN plugin install license \
  && plugin install marvel-agent \
